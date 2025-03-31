@@ -417,17 +417,17 @@ async function jsonitems(link) {
 }
 itemscounter = 0;
 async function itemsData() {
-    botagas = await jsonitems("../json/botagas.json");
-    cars = await jsonitems("../json/cars.json");
-    clothes = await jsonitems("../json/clothes.json");
-    computers = await jsonitems("../json/computers.json");
-    fan = await jsonitems("../json/fan.json");
-    fridge = await jsonitems("../json/Fridge.json");
-    furniture = await jsonitems("../json/Furniture.json");
-    icebox = await jsonitems("../json/icebox.json");
-    gaming = await jsonitems("../json/list_gaming_labtops.json");
-    phone = await jsonitems("../json/phone.json");
-    television = await jsonitems("../json/Television.json");
+    botagas = await jsonitems("./json/botagas.json");
+    cars = await jsonitems("./json/cars.json");
+    clothes = await jsonitems("./json/clothes.json");
+    computers = await jsonitems("./json/computers.json");
+    fan = await jsonitems("./json/fan.json");
+    fridge = await jsonitems("./json/Fridge.json");
+    furniture = await jsonitems("./json/Furniture.json");
+    icebox = await jsonitems("./json/icebox.json");
+    gaming = await jsonitems("./json/list_gaming_labtops.json");
+    phone = await jsonitems("./json/phone.json");
+    television = await jsonitems("./json/Television.json");
     array = await [
         ...botagas,
         ...cars,
