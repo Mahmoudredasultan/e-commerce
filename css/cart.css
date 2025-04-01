@@ -1,0 +1,187 @@
+:root {
+  --main-color:#0075FF;
+  --main-background-color:white;
+  --second-background-color:#F6F6F6;
+  --paragraph-color :#777;
+}
+body{
+}
+html{
+  scroll-behavior: smooth;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+*{
+  box-sizing: border-box;
+}
+.container{
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.cart{
+  padding: 100px 0 0;
+}
+.cart .container{
+  
+}
+.cart .container h1{
+  color: var(--main-color);
+}
+.cart .container .items{
+  width: 100%;
+  overflow: hidden;
+}
+.cart .container .items .item{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: #F0F5F8;
+  padding: 10px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  transition: 0.4s;
+  height: auto;
+  position: relative;
+  left: 0;
+  overflow: hidden;
+}
+.cart .container .items .item .img{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.cart .container .items .item img{
+  width: 80%;
+  height: 90%;
+}
+.cart .container .items .item .text{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cart .items .item .text .cont1{
+}
+.cart .items .item .text .cont1 h5{
+  font-size: 25px;
+  margin: 0;
+}
+.cart .items .item .text .cont1 .icons{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cart .items .item .text .cont1 span{
+  padding: 10px;
+  display: inline-block;
+  font-size: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.cart .items .item .text .cont1 span:nth-child(2){
+  border: none;
+}
+.cart .item .text .cont2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.cart .item .text .cont2 h5{
+  font-size: 25px;
+}
+.cart .item .text .cont2 span{
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+}
+.cart .item .text .cont2 span i{
+  color: red;
+  font-size: 25px;
+}
+@media (max-width: 420px) {
+  .cart .container .items .item .img {
+    margin: auto;
+  }
+  .cart .container h1{
+    text-align: center;
+  }
+}
+
+
+.pay {
+  padding-bottom: 100px;
+}
+.pay .container{
+  
+}
+.pay .container .total{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pay .container .total h3{
+  
+}
+.pay .container .total h2{
+  
+}
+.pay .container .or{
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 30px;
+}
+.pay .container .or .btn1{
+  padding: 10px 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.pay .container .or .btn1 p{
+  margin: 0;
+  color: var(--main-color);
+  font-weight: bold;
+}
+.pay .container .or .btn2{
+  padding: 10px 20px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  display: inline-block;
+}
+.pay .container .or .btn2 p{
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}

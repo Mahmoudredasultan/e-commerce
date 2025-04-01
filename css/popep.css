@@ -1,0 +1,258 @@
+.popep {
+  width: 100%;
+  background-color: white;
+}
+
+.popep .loading2{
+  background-image: url(../images/secondShope.png);
+  background-size: cover;
+  height: 700px;
+  background-position-y: -50px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.popep .loading2 .text {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  color: white;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  left: 57%;
+}
+.popep .loading2 .text h1 {
+  
+}
+.popep .newItems {
+  background-color: var(--second-background-color);
+}
+.popep .newItems .productes {
+  
+  padding: 0;
+}
+.popep .newItems .productes .item {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: white;
+  border: 3px solid #ECECEC;
+  padding: 50px;
+}
+.popep .newItems .productes .item .img{
+  margin: auto;
+}
+.popep .container .section1{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #ECECEC;
+  
+}
+.popep .container .img{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  margin-right: 40px;
+}
+@media (max-width: 700px) {
+  .popep .container .img{
+    width: 100%;
+  }
+}
+.popep .container .img1 {
+  width: 100%;
+  position: relative;
+}
+.popep .container .img1 img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.popep .container .img2{
+  
+  width: 100%;
+ display: grid;
+ grid-template-columns: repeat(auto-fill,minmax(50px,1fr));
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.popep .container .img2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.popep .container .text {
+  flex: 1;
+}
+@media (max-width: 700px) {
+  .popep .container .text {
+    width: 100%;
+  }
+}
+.popep .container .text .header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popep .container .text .header1 h2:first-child{
+  color: var(--main-color);
+  font-size: 28px;
+}
+.popep .container .text .description {
+  
+}
+.popep .container .text .description h4{
+  
+}
+.popep .container .text .description p{
+  color: #777;
+  line-height: 1.7;
+  padding-left: 10px;
+}
+.popep .container .text .atrs{
+  
+}
+.popep .container .text .atrs h3 {
+  
+}
+.popep .container .text .atrs ul {
+  
+}
+.popep .container .text .atrs ul li {
+  color: #777;
+  line-height: 1.7;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+.popep .container .text button {
+  width: 100%;
+  color: white;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 20px;
+}
+.popep .container .specifications {
+  overflow: hidden;
+  height: 800px;
+  border-bottom: 2px solid #ECECEC;
+  margin-bottom: 40px;
+}
+.popep .container .specifications h1{
+  color: var(--main-color);
+}
+.popep  .specifications .element{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popep .specifications .element p:last-child {
+}
+.popep .review {
+  padding-bottom: 50px;
+  border-bottom: 2px solid #ECECEC;
+}
+.popep .review h1 {
+  color: var(--main-color);
+}
+.popep .review .revBox {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.popep .review .revBox img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.popep .review .revBox .revText {
+  flex: 1;
+  
+}
+.popep .revBox .revText .revTextHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popep .review .revBox h3 {
+  
+}
+.popep .review .revBox i{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #777;
+  color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.popep .review .revBox .fa-star {
+  color: gold;
+  border: none;
+  width: auto;
+  height: auto;
+  border-radius: none;
+  display: inline-block;
+  margin: 0;
+}
+.popep .review .revBox p{
+  color: #777;
+  line-height: 1.7;
+}
+/* videos */
+.popep .container .video{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #ECECEC;
+  margin-bottom: 40px;
+}
+.popep .container .vid1 {
+  width: 100%;
+  position: relative;
+}
+.popep .container .vid1 video{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.popep .container .vid2{
+  
+  width: 100%;
+ display: grid;
+ grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.popep .container .vid2 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.popep .botton {
+  padding: 30px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #0075FF;
+  color: white;
+}
